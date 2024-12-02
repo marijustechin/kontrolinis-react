@@ -1,26 +1,24 @@
 import { useEffect, useState } from "react";
-import { IApiResponse } from "../api/getCategories";
 import { PageTitle } from "../components/shared/PageTitle";
-import axios from "axios";
-import { API_BOOKS_URL } from "../helpers/constants";
 import { BookCard } from "../components/BookCard";
 import { IBook } from "../helpers/interfaces";
+import { apiGetAllBooks } from "../api/getBooks";
 
 const HomePage = () => {
   const [books, setBooks] = useState<IBook[]>([]);
   const [apiError, setApiError] = useState("");
 
-  async function getAllBooks(url: string) {
-    try {
-      const res = await axios.get<IApiResponse[]>(url);
-      setBooks(res.data);
-    } catch (error) {
-      if (error) setApiError("Nepavyko gauti duomenų");
+  async function getAllBooks() {
+    const res = await apiGetAllBooks();
+    if (typeof res === "string") {
+      setApiError(res);
+    } else {
+      setBooks(res);
     }
   }
 
   useEffect(() => {
-    getAllBooks(API_BOOKS_URL);
+    getAllBooks();
   }, []);
 
   return (

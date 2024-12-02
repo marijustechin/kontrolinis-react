@@ -4,6 +4,7 @@ import { API_BOOKS_URL } from "../helpers/constants";
 import axios from "axios";
 import { IApiResponse, IFormValues } from "../helpers/interfaces";
 import { useNavigate } from "react-router";
+import { apiAddBook } from "../api/addBook";
 
 export const NewBookForm = () => {
   const navigate = useNavigate();
@@ -37,21 +38,27 @@ export const NewBookForm = () => {
   };
 
   const onSubmit: SubmitHandler<IFormValues> = async (formData) => {
-    try {
-      await axios.post(API_BOOKS_URL, formData);
+    const res = await apiAddBook({
+      title: formData.title,
+      author: formData.author,
+      category: formData.category,
+      price: formData.price,
+      reserved: "false",
+      cover: formData.cover,
+    });
 
+    if (typeof res === "string") {
+      setError(res);
+    } else {
       setSuccess(
         "Knyga sėkmingai pridėta prie knygų sąrašo. Po 5 sekundžių busite nukreipti į knygų sąrašą."
       );
-      setError("");
-      reset();
-      setTimeout(() => {
-        navigate("/");
-      }, 5000);
-    } catch (error) {
-      if (error) setError("Nepavyko prideti knygos");
-      setSuccess("");
     }
+
+    reset();
+    setTimeout(() => {
+      navigate("/");
+    }, 5000);
   };
 
   return (

@@ -8,6 +8,7 @@ import {
   IApiResponse,
   IFormValues,
 } from "../helpers/interfaces";
+import { updateBook } from "../api/updateBook";
 
 export const EditBookForm = ({
   book,
@@ -32,9 +33,15 @@ export const EditBookForm = ({
   });
 
   const onSubmit: SubmitHandler<IFormValues> = async (formData) => {
-    console.log(formData);
     try {
-      axios.put(API_BOOKS_URL + `/${book.id}`, formData);
+      await updateBook(book.id, {
+        title: formData.title,
+        author: formData.author,
+        category: formData.category,
+        cover: formData.cover,
+        reserved: "false",
+        price: formData.price,
+      });
       onYes();
       onClose();
     } catch (error) {
@@ -55,8 +62,7 @@ export const EditBookForm = ({
       const categories = [...new Set(allCategories)];
       setCategories(categories);
     } catch (error) {
-      if (error) return error;
-      return ["Nepavyko gauti kategorijų sąrašo"];
+      return setError("Nepavyko gauti kategorijų sąrašo");
     }
   };
 

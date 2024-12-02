@@ -114,20 +114,21 @@
       "id": "c61f"
     },
     {
-      "id": "c543",
-      "title": "Dar viena knyga",
-      "author": "Tiesiog testas",
+      "title": "Naujas pavadinmas",
+      "author": "Karolis",
       "category": "Biography",
+      "cover": "https://thumb.knygos-static.lt/NGfeIeKkSPq0th08xUKt-urntag=/fit-in/0x800/images/books/10737/1462876621_vienuols.jpg",
+      "reserved": "false",
       "price": "12.55",
-      "cover": "https://thumb.knygos-static.lt/NGfeIeKkSPq0th08xUKt-urntag=/fit-in/0x800/images/books/10737/1462876621_vienuols.jpg"
+      "id": "c543"
     },
     {
-      "id": "0621",
-      "title": "SDasd",
-      "author": "SADasd",
-      "category": "Fiction",
+      "title": "Parduotos vasaros",
+      "author": "Jonas Cvirka",
       "price": "11",
       "cover": "https://thumb.knygos-static.lt/86C871sgdYLp4buXti8TslPmMXg=/fit-in/0x800/filters:cwatermark(static/wm.png,500,75,30)/images/books/14587565/1726655176_HP-Kaledos-Hagvartse.jpg",
+      "category": "Fiction",
+      "id": "0621",
       "reserved": "false"
     },
     {
@@ -136,7 +137,43 @@
       "price": "11.45",
       "cover": "https://thumb.knygos-static.lt/86C871sgdYLp4buXti8TslPmMXg=/fit-in/0x800/filters:cwatermark(static/wm.png,500,75,30)/images/books/14587565/1726655176_HP-Kaledos-Hagvartse.jpg",
       "category": "Biography",
-      "id": "86bb"
+      "id": "86bb",
+      "reserved": "false"
+    },
+    {
+      "id": "7dd4",
+      "title": "Žiedų valdovas. Dvi tvirtovės. 2 dalis",
+      "author": "Tolkinas",
+      "category": "Fiction",
+      "price": "52.07",
+      "cover": "https://thumb.knygos-static.lt/rl1Obiz9cKsmb_iMmRZ7AYJtXo4=/fit-in/0x800/filters:cwatermark(static/wm.png,500,75,30)/images/books/1507155/1603174488_000000000001112226-5f8d4a07aba11-asset-knyguklubas-ziedu-valdovas2_dvi-tvirtoves.jpg"
+    },
+    {
+      "title": "Griuvėsių dvaras",
+      "author": "Rita",
+      "category": "Romance",
+      "cover": "https://thumb.knygos-static.lt/Q4_BmheCxKmabXSc6EJtyUsFIpw=/fit-in/0x800/filters:cwatermark(static/wm.png,500,75,30)/images/books/2702848/1666763079_0e607a86b02513d3a4137e0821e7691843d2d9ae_Sparnu_ir_griuvesiu_dvaras.jpg",
+      "reserved": "false",
+      "price": "54.44",
+      "id": "2e72"
+    },
+    {
+      "title": "Senis Besmegenis",
+      "author": "Ledo Boba",
+      "category": "Science",
+      "cover": "https://thumb.knygos-static.lt/NGfeIeKkSPq0th08xUKt-urntag=/fit-in/0x800/images/books/10737/1462876621_vienuols.jpg",
+      "reserved": "false",
+      "price": "10.15",
+      "id": "b27b"
+    },
+    {
+      "id": "5286",
+      "title": "Sibiras",
+      "author": "Kibiras",
+      "category": "Fantasy",
+      "price": "99.45",
+      "reserved": "false",
+      "cover": "https://thumb.knygos-static.lt/v0kXbBE8iRHgO7mfCHp1wdD2deI=/fit-in/0x800/filters:cwatermark(static/wm.png,500,75,30)/images/books/1155770/1511944349_23905763_1769731376654602_5785027838290656839_n.jpg"
     }
   ]
 }
