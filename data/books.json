@@ -1,0 +1,142 @@
+{
+  "books": [
+    {
+      "title": "To Kill a Mockingbird",
+      "author": "Harper Lee",
+      "price": "11.11",
+      "cover": "https://thumb.knygos-static.lt/v1uVHdK972yxp2Dahx-hOM7ZQCY=/fit-in/0x800/filters:cwatermark(static/wm.png,500,75,30)/images/books/14821141/1728289488_Vandens_pazadas.jpg",
+      "category": "Fiction",
+      "id": "d320",
+      "reserved": "true"
+    },
+    {
+      "title": "A Brief History of Time",
+      "author": "Stephen Hawking",
+      "category": "Science",
+      "price": 15.49,
+      "cover": "https://thumb.knygos-static.lt/dfVKxz7LoRyKwe4vRy1ttgBvjGY=/fit-in/0x800/filters:cwatermark(static/wm.png,500,75,30)/images/books/14845993/1729836650_000000000001114031-e-7-e-5-e7e5ed25180b9762b1b7f8b95724c5a61c5bc589_ana_o.jpg",
+      "id": "5cf3",
+      "reserved": "false"
+    },
+    {
+      "title": "The Great Gatsby",
+      "author": "F. Scott Fitzgerald",
+      "category": "Fiction",
+      "price": 12.99,
+      "cover": "https://thumb.knygos-static.lt/uZcslr_7f5yk7VkU6oeHYgygG0c=/fit-in/0x800/filters:cwatermark(static/wm.png,500,75,30)/images/books/14813876/1725363457_kaledos-zvakiu-sviesoje-1.jpg",
+      "id": "fa89",
+      "reserved": "false"
+    },
+    {
+      "title": "Educated",
+      "author": "Tara Westover",
+      "category": "Biography",
+      "price": 14.99,
+      "cover": "https://thumb.knygos-static.lt/dfVKxz7LoRyKwe4vRy1ttgBvjGY=/fit-in/0x800/filters:cwatermark(static/wm.png,500,75,30)/images/books/14845993/1729836650_000000000001114031-e-7-e-5-e7e5ed25180b9762b1b7f8b95724c5a61c5bc589_ana_o.jpg",
+      "id": "63d8",
+      "reserved": "false"
+    },
+    {
+      "title": "Dune",
+      "author": "Frank Herbert",
+      "category": "Science Fiction",
+      "price": 18.99,
+      "cover": "https://thumb.knygos-static.lt/EZpBo47wo9T0b1g0de6gCoytqKo=/fit-in/0x800/filters:cwatermark(static/wm.png,500,75,30)/images/books/14886745/1731335940_nesbo_UZTEMIMAS_72max.jpg",
+      "id": "f53b",
+      "reserved": "true"
+    },
+    {
+      "title": "1984",
+      "author": "George Orwell",
+      "category": "Dystopian",
+      "price": 9.99,
+      "cover": "https://thumb.knygos-static.lt/t0y8JP-gGvQjQXh6RxqiYWCuA5s=/fit-in/0x800/filters:cwatermark(static/wm.png,500,75,30)/images/books/14870917/1731313004_Viskas-ko-nepasakeme.jpg",
+      "id": "36c7",
+      "reserved": "false"
+    },
+    {
+      "title": "Pride and Prejudice",
+      "author": "Jane Austen",
+      "category": "Romance",
+      "price": 11.99,
+      "cover": "https://thumb.knygos-static.lt/9uiPgVqD-LLoCibjYUc6PlX6USI=/fit-in/0x800/filters:cwatermark(static/wm.png,500,75,30)/images/books/14878154/1730370373_0012801_ceo-dienorastis-33-verslo-ir-gyvenimo-desniai.jpg",
+      "id": "0ce6",
+      "reserved": "false"
+    },
+    {
+      "title": "The Catcher in the Rye",
+      "author": "JD Salinger",
+      "price": 10.49,
+      "cover": "https://thumb.knygos-static.lt/t0y8JP-gGvQjQXh6RxqiYWCuA5s=/fit-in/0x800/filters:cwatermark(static/wm.png,500,75,30)/images/books/14870917/1731313004_Viskas-ko-nepasakeme.jpg",
+      "category": "Fiction",
+      "id": "f1c2"
+    },
+    {
+      "title": "The Hobbit",
+      "author": "J.R.R. Tolkien",
+      "category": "Fantasy",
+      "price": 13.95,
+      "cover": "https://thumb.knygos-static.lt/9uiPgVqD-LLoCibjYUc6PlX6USI=/fit-in/0x800/filters:cwatermark(static/wm.png,500,75,30)/images/books/14878154/1730370373_0012801_ceo-dienorastis-33-verslo-ir-gyvenimo-desniai.jpg",
+      "id": "773e",
+      "reserved": "true"
+    },
+    {
+      "title": "The Alchemist",
+      "author": "Paulo Coelho",
+      "category": "Adventure",
+      "price": 16.99,
+      "cover": "https://thumb.knygos-static.lt/1pvs8X5YRNSZlgv9edEmesxgAKE=/fit-in/0x800/filters:cwatermark(static/wm.png,500,75,30)/images/books/14721816/1718868391_kepyklele-brukline-1.jpg",
+      "id": "16ed",
+      "reserved": "false"
+    },
+    {
+      "title": "Paskenduolė",
+      "author": "Antanas Vienuolis",
+      "price": "25.65",
+      "cover": "https://thumb.knygos-static.lt/NGfeIeKkSPq0th08xUKt-urntag=/fit-in/0x800/images/books/10737/1462876621_vienuols.jpg",
+      "category": "Fiction",
+      "id": "fc58"
+    },
+    {
+      "title": "Proza",
+      "author": "Kazys Saja",
+      "price": "11.26",
+      "cover": "https://thumb.knygos-static.lt/TbNw7R157qpD8ZoKvZOmfTpKUIo=/fit-in/0x800/filters:cwatermark(static/wm.png,500,75,30)/images/books/12467/1462877513_44.jpg",
+      "category": "Fiction",
+      "id": "fbe8"
+    },
+    {
+      "title": "Kalėdos Hogvartse",
+      "author": "Haris Poteris",
+      "price": "12.58",
+      "cover": "https://thumb.knygos-static.lt/86C871sgdYLp4buXti8TslPmMXg=/fit-in/0x800/filters:cwatermark(static/wm.png,500,75,30)/images/books/14587565/1726655176_HP-Kaledos-Hagvartse.jpg",
+      "category": "Dystopian",
+      "id": "c61f"
+    },
+    {
+      "id": "c543",
+      "title": "Dar viena knyga",
+      "author": "Tiesiog testas",
+      "category": "Biography",
+      "price": "12.55",
+      "cover": "https://thumb.knygos-static.lt/NGfeIeKkSPq0th08xUKt-urntag=/fit-in/0x800/images/books/10737/1462876621_vienuols.jpg"
+    },
+    {
+      "id": "0621",
+      "title": "SDasd",
+      "author": "SADasd",
+      "category": "Fiction",
+      "price": "11",
+      "cover": "https://thumb.knygos-static.lt/86C871sgdYLp4buXti8TslPmMXg=/fit-in/0x800/filters:cwatermark(static/wm.png,500,75,30)/images/books/14587565/1726655176_HP-Kaledos-Hagvartse.jpg",
+      "reserved": "false"
+    },
+    {
+      "title": "Altorių šešėlyje",
+      "author": "Putinas",
+      "price": "11.45",
+      "cover": "https://thumb.knygos-static.lt/86C871sgdYLp4buXti8TslPmMXg=/fit-in/0x800/filters:cwatermark(static/wm.png,500,75,30)/images/books/14587565/1726655176_HP-Kaledos-Hagvartse.jpg",
+      "category": "Biography",
+      "id": "86bb"
+    }
+  ]
+}
